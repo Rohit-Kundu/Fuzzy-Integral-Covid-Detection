@@ -24,7 +24,7 @@ Required Directory Structure:
 +-- main.py
 +-- probability_extraction.py
 +-- ensemble.py
-+-- integrals.py
++-- sugeno_integral.py
 
 ```
 
