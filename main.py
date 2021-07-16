@@ -105,4 +105,4 @@ prob2,_ = getfile("Kaggle_squeezenet",root = data_dir)
 prob3,_ = getfile("Kaggle_googlenet",root = data_dir)
 prob4,_ = getfile("Kaggle_wideresnet",root = data_dir)
 
-ensemble_sugeno(prob1,prob2,prob3,prob4)
+ensemble_sugeno(labels,prob1,prob2,prob3,prob4)
