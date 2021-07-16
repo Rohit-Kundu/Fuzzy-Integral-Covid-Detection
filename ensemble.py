@@ -35,7 +35,7 @@ def metrics(labels,predictions,classes):
     print("\nBalanced Accuracy Score: ",balanced_accuracy_score(labels,predictions))
 
 #Sugeno Integral
-def ensemble_sugeno(prob1,prob2,prob3,prob4):
+def ensemble_sugeno(labels,prob1,prob2,prob3,prob4):
     num_classes = prob1.shape[1]
     Y = np.zeros(prob1.shape,dtype=float)
     for samples in range(prob1.shape[0]):
