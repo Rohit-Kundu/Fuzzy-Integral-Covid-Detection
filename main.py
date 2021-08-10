@@ -62,7 +62,7 @@ num_epochs = args.epochs
 
 
 criterion = nn.CrossEntropyLoss()
-optimizer = optim.SGD(model.parameters(), lr=0.001)
+optimizer = optim.SGD(model.parameters(), lr=0.0001, momentum = 0.99)
 step_lr_scheduler = lr_scheduler.StepLR(optimizer, step_size = 10, gamma=0.1)
 
 
