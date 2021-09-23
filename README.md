@@ -1,5 +1,5 @@
 # Fuzzy-Integral-Ensemble
-This is the official implementation of the paper titled "Fuzzy Integral-based CNN Ensemble for COVID-19 Detection from Lung CT Images" under review in _Computers in Biology and Medicine_, Elsevier.
+This is the official implementation of the paper titled "Fuzzy Integral-based CNN Ensemble for COVID-19 Detection from Lung CT Images" accepted for publication in _Computers in Biology and Medicine_, Elsevier.
 
 ## Requirements
 
