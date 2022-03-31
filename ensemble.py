@@ -42,7 +42,7 @@ def ensemble_sugeno(labels,prob1,prob2,prob3,prob4):
         for classes in range(prob1.shape[1]):
             X = np.array([prob1[samples][classes], prob2[samples][classes], prob3[samples][classes], prob4[samples][classes] ])
             measure = np.array([1.5, 1.5, 0.01, 1.2])
-            X_agg = integrals.sugeno_fuzzy_integral_generalized(X,measure)
+            X_agg = sugeno_integral.sugeno_fuzzy_integral_generalized(X,measure)
             Y[samples][classes] = X_agg
 
     sugeno_pred = predicting(Y)
