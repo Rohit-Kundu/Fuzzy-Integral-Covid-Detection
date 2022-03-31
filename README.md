@@ -27,3 +27,17 @@ Required Directory Structure:
 ```
 
 Run: `python main.py --data_directory "D:/data" --epochs 100`
+
+# Citation
+If you found this repository helpful, please consider citing our paper:
+```
+@article{kundu2021covid,
+  title={COVID-19 detection from lung CT-Scans using a fuzzy integral-based CNN ensemble},
+  author={Kundu, Rohit and Singh, Pawan Kumar and Mirjalili, Seyedali and Sarkar, Ram},
+  journal={Computers in Biology and Medicine},
+  volume={138},
+  pages={104895},
+  year={2021},
+  publisher={Elsevier}
+}
+```
